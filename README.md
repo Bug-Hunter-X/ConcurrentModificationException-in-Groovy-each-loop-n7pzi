@@ -1,0 +1,1 @@
+This example demonstrates a common error in Groovy when modifying a list while iterating over it using the each method.  The each method creates a copy of the list and iterates over the copy.  Any modifications made to the original list within the loop will not be reflected in the iteration.  This can lead to unexpected behavior or exceptions depending on the context.
